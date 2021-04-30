@@ -70,7 +70,9 @@ body {
     display: 5px;
 }
 .form1 i{
+    display: inline;
     margin-left:-24px;
+    margin-right: 5px;
     visibility:hidden;
      
      }
