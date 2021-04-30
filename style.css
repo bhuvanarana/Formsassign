@@ -93,12 +93,12 @@ font-weight: 700;
 
 
 
-.form-control.success input{
+.form1.success input{
     border-color: green;
   }
 
   
-.form-control.error input{
+.form1.error input{
     border-color: red;
   }
 
