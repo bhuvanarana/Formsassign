@@ -7,15 +7,14 @@
     <title>FORM</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
     <link rel = "stylesheet" href = style.css>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" >
 </head>
-<body id="body" style="background-color:black;">
-    <div class="container">
+<body id="body">
+    <div class="containers">
         <div class="header">
             <h2>REGISTRATION FORM</h2>
         </div>
         <form class="form" id="form" action="index1.html" method="post">
-            <div class="form-control"  >
+            <div class="form1"  >
                 <label for="username">Username :</label>
                 <input type="text" name="username"  id="username"  placeholder="Enter Your Full Name" autocomplete="off" >
                 <i class="fas fa-check-circle" id="2"></i> 
@@ -28,7 +27,7 @@
                 <small id="msg" style="visibility:hidden;color:red">error msg</small>
             </div>
 
-            <div class="form-control">
+            <div class="form1">
                 <label for="Email">E-Mail :</label>
                 <input type="Email" name="Email"  id="Email" placeholder="Enter Your E-Mail" autocomplete="off">
                 <i class="fas fa-check-circle" id="4"></i> 
@@ -41,7 +40,7 @@
                 <small id="emsg" style="visibility:hidden;color:red">error msg</small>
             </div>
 
-            <div class="form-control">
+            <div class="form1">
                 <label for="tel">Phone No :</label>
                 <input type="tel" name="tel"  id="tel" placeholder="Enter Your Phone Number" autocomplete="off" >
                 <i class="fas fa-check-circle" id="6"></i> 
@@ -54,7 +53,7 @@
                 <small id="eemsg" style="visibility:hidden;color:red">error msg</small>
             </div>
 
-            <div class="form-control">
+            <div class="form1">
                 <label for="password">password :</label>
                 <input type="password" name="password"  id="password" placeholder="Enter Your password" autocomplete="off">
                 <i class="fas fa-check-circle" id="8"></i> 
@@ -67,7 +66,7 @@
                 <small id="eeemsg" style="visibility:hidden;color:red">error msg</small>
             </div>
 
-            <div class="form-control">
+            <div class="form1">
                 <label for="cpassword">Confirm Password :</label>
                 <input type="password" name="cpassword"  id="cpassword" placeholder="Confirm Your password" autocomplete="off">
                 <i class="fas fa-check-circle" id="10"></i> 
@@ -79,7 +78,7 @@
             </br> 
                 <small id="eeeemsg" style="visibility:hidden;color:red">error msg</small>
             </div>
-             <div class="form-control">
+             <div class="form1">
                 <p>
                     <label for="Name">Name of the Course:</label><br>
                     <input type="radio"name=call>Python
@@ -88,21 +87,21 @@
                     <input type="radio"name=call>Hacking
                     <input type="radio"name=call>Cyber Security
                     <input type="radio"name=call>Big Data
-                    </p>
+		     </p></br>
             </div>
 
 
           
             
-            <div class="form-control">
+            <div class="form1">
             <label for="start"> Course start Date:</label>
             <input type="date" name="date">
-        </div>
+        </div><br>
 
-     <div class="form-control">
+     <div class="form1">
          <label for="Department:">Department:</label>
-		<select type="list" name=department>
-		<option>...select one...</option>
+		<select type="list" style="font-style: italic;" name=department>
+		<option>...SELECT ONE...</option>
 		<option value="EEE">EEE</option>
 		<option value="CSE">CSE</option>
 		<option value="IT">IT</option>
